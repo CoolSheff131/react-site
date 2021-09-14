@@ -3,10 +3,11 @@ import { Container, FormControl, Nav, Navbar, Form, Button } from 'react-bootstr
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from '../Pages/Home'
 import About from '../Pages/About'
-import Contacts from '../Pages/Contacts'
+
 import Blog from '../Pages/Blog'
 
 import logo from './logo192.png'
+import Contacts from '../Pages/Contacts'
 
 export default class Header extends Component{
     render(){
